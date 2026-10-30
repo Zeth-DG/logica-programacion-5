@@ -32,7 +32,8 @@ public class DiccionarioApp {
         System.out.println("Palabras correctas: " + contadorCorrectas);
         System.out.println("Palabras incorrectas: " + contadorIncorrectas);
         System.out.println("¡Hasta la próxima!");
-        
+
+        sc.close();
     }//main
 
     private static Map<String, String> getStringMap() {
